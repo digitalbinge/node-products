@@ -4,3 +4,4 @@ html
 		h1 Products
 		each product in productList
 			li= product.name
+				a(href='/products/delete/' + product.id) delete
